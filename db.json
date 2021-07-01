@@ -1,0 +1,54 @@
+{
+    "bands": [
+        {"id": 1,
+        "name": "Jerry",
+        "image": "// get img src",
+        "bio": "character bio"
+        },
+        {"id": 2,
+            "name": "Jerry",
+            "image": "// get img src",
+            "bio": "character bio"
+            },
+            {"id": 3,
+                "name": "Jerry",
+                "image": "// get img src",
+                "bio": "character bio"
+                },
+                {"id": 4,
+                    "name": "Jerry",
+                    "image": "// get img src",
+                    "bio": "character bio"
+                    },
+                    {"id": 5,
+                        "name": "Jerry",
+                        "image": "// get img src",
+                        "bio": "character bio"
+                        },
+                        {"id": 6,
+                            "name": "Jerry",
+                            "image": "// get img src",
+                            "bio": "character bio"
+                            },
+                            {"id": 7,
+                                "name": "Jerry",
+                                "image": "// get img src",
+                                "bio": "character bio"
+                                },
+                                {"id": 8,
+                                    "name": "Jerry",
+                                    "image": "// get img src",
+                                    "bio": "character bio"
+                                    },
+                                    {"id": 9,
+                                        "name": "Jerry",
+                                        "image": "// get img src",
+                                        "bio": "character bio"
+                                        },
+                                        {"id": 10,
+                                            "name": "Jerry",
+                                            "image": "// get img src",
+                                            "bio": "character bio"
+                                            }
+    ]
+}
