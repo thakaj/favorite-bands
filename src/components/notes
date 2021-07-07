@@ -1,0 +1,48 @@
+// Notes from Jenn
+//UseEffect to fetch db.json at this parent level to pass down info as props
+// for the css add a class name to the components top < />
+//use Css to make my card table. => Jenn used semantic UI from React
+
+//notes 
+
+//porbably render BandCards component 
+//may want to use a table to illustrate all the band cards
+//something like whats bellow but with the component <BandCard id={id} /> probably have to pass down props from the parent <BandPage/> to <BandcCard/>
+// going to call the data from db.json. maybe create a variable and set it equal to an array then set the db within the array? possibly
+// always need to provide a function definition, not a function invocation to our event handlers => refrence Event handling in react
+//React will only update state if a new object/array is passed to setState
+//Again, to repeat! React will only re-render our component when we set state with a new value; so we need to create a 
+//new copy of our original array to pass to the setter function, rather than mutating the original 
+//array directly and passing a reference to the original array.
+//Filter notes
+// Remember, .filter returns a new array that is a shortened version of the elements in the original array. It expects a callback that will
+//return either true or false. For all elements of the original array where the callback returns true, add those elements to the new array. For
+//all elements that return false, don't add them to the new array.
+//Notes on making setting state
+//1.import useState hook
+//2. set up iniital state
+//  2.a function variable(){   const [isVariable, setVariable] = setState(dataType)}
+//3. Use state variable in component {isVariable}
+//4. call setter function in a function {setVariable}
+
+
+
+//Notes
+//porbably have a component inside of it
+//This page will require me to create a submit form => refrence handling events in react for brief examples
+//use the form element => use the onSubmit event listener => must remember to use event.prevent default while using onSubmit
+//As a rule of thumb, any time you need to set state based on the current value of state, you should use the callback syntax.
+//example
+// function increment() {
+//     setCount((currentCount) => currentCount + 1);
+//     setCount((currentCount) => currentCount + 1);
+//   } 
+//React will only update state if a new object/array is passed to setState
+//Again, to repeat! React will only re-render our component when we set state with a new value; so we need to create a 
+//new copy of our original array to pass to the setter function, rather than mutating the original 
+//array directly and passing a reference to the original array.
+//Cheat Sheet for Array Methods
+//Add: use the spread operator ([...])
+// Remove: use .filter
+// Update: use .map
+ 
