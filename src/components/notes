@@ -2,6 +2,12 @@
 //UseEffect to fetch db.json at this parent level to pass down info as props
 // for the css add a class name to the components top < />
 //use Css to make my card table. => Jenn used semantic UI from React
+// suggested i add a filter to my band page as practice and functionality !!!
+// the form needs to update state as well as updating db.json
+//i need to make a post request so that the data gets added to db.json
+//i want my post request to update the state of the bands so it is added to the array
+//the test is to see if i refresh the data is still avaiable 
+
 
 //notes 
 

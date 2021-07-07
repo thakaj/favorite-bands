@@ -17,7 +17,8 @@ useEffect(()=> {
 return (
     <div>
             <h1>Playing In The Band</h1>
-            {bands.map( bands => <BandCard 
+            {bands.map(bands => 
+            <BandCard 
             key={bands.id}
             id={bands.id} 
             name={bands.name}
