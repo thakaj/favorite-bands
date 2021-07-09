@@ -7,7 +7,7 @@ function BandCard ({id, name, image, bio }){
 
             <article key={id}>
                 <h2>{name}</h2>
-                <img src={image}/>
+                <img src={image} alt={name}/>
                 <article>{bio}</article>
             </article>
         </div>

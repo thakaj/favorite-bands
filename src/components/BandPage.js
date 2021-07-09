@@ -1,19 +1,9 @@
-import React, {useEffect, useState} from "react"
+import React from "react"
 import BandCard from "./BandCard"
 
 
 
-function BandPage(){
-const [bands, setBands] = useState([])
-
-
-useEffect(()=> {
-    fetch('http://localhost:8000/bands')
-    .then(r=> r.json())
-    .then(data => setBands(data))
-}, [])
-
-
+function BandPage({bands}){
 return (
     <div>
             <h1>Playing In The Band</h1>
