@@ -1,3 +1,23 @@
+Questions for Eri
+I want to refactor my code i think i need to look at Form.js as well as App.js 
+Form.js=> i want to refactor my onChange functions into one but when i try it doesnt render correctly
+it might be a state issue. I would like to change the way my Form.js component works so that it is not its own route
+How can i have the state refresh so that my db.json file isnt always being mutated 
+App.js=> possibly look over the UseEffect and how its being used to pass a function down to Form.js
+Ideas for more functionality=> add a filter to my band page. For a new route maybe a booking page? A calander the user can click on and the user 
+can enter info to book time for tutoring. How difficult would that be? If i really wanted it simple i could just have the user click time availability.
+If they need to input info i need to change my Form.js i believe.
+Have homepage render directly when server runs
+
+i want to add functionality. how can i add more funcitonality to my project as it is
+
+
+eri recom
+
+bandpage=> css display flex box youtube resources 
+error handle will probably be an if statement so i dont get bad data submited => lookup error handling with json
+filter by onChange bring state. filter it all by name
+
 // Notes from Jenn
 //UseEffect to fetch db.json at this parent level to pass down info as props
 // for the css add a class name to the components top < />
