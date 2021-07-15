@@ -1,6 +1,31 @@
 .App {
   text-align: center;
 }
+img {
+  width: 300px;
+  height: 300px;
+}
+.band-header{
+  text-align: center;
+  background-color:  rgb(238,128,255)
+ 
+}
+.band-card{
+  background-color:  #FF00A2;
+}
+header{
+  background-color:#22FF00;
+}
+body {
+  background-color: #FF00A2;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
 
 .App-logo {
   height: 40vmin;

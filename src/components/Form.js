@@ -6,6 +6,11 @@ function Form({addNewBand}){
     const [newBand, setNewBand] = useState({name: "", image: "", bio: ""})
     const history = useHistory()
 
+    // function handleChange(e){
+    //     let newKey = e.target.value
+    //     let newInput = e.target.value
+    //     setNewBand({...newBand, [newKey]: newInput})
+    // }
     function handleChangeName(event){
         setNewBand({...newBand, name: event.target.value })
     }
@@ -54,7 +59,7 @@ function Form({addNewBand}){
                 onChange={handleChangeImage} 
                 value={newBand.image}
                 placeholder="enter image url..."
-                style={{margin: "10px"}}/>
+                style={{margin: "10px"}}/> 
                 <label>Your favorite Song</label>
                 <input type="text" name="bio"
                 onChange={handleChangeBio} 

@@ -14,9 +14,10 @@ function BandPage({bands}){
 
     const filterArray = bands.filter((b)=> (b.name && b.name.includes(data)))
 return (
-    <div>
+    <main>
+    <div className="band-header">
             <h1>Playing In The Band</h1>
-            <form onSubmit>
+            <form >
                 <label>Filter:</label>
                 <input type="text" 
                 name="name"
@@ -26,6 +27,7 @@ return (
                 />
             </form>
             {filterArray.map(bands => 
+            
             <BandCard 
             key={bands.id}
             id={bands.id} 
@@ -34,6 +36,7 @@ return (
             bio={bands.bio}
             />)}
         </div>
+        </main>
     )
 }
 
