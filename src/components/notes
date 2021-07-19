@@ -1,3 +1,10 @@
+think about setting the first page to render as the home page ==> react router
+error message if its an invalid url
+add 404 to react routes
+
+
+
+
 Questions for Eri
 I want to refactor my code i think i need to look at Form.js as well as App.js 
 Form.js=> i want to refactor my onChange functions into one but when i try it doesnt render correctly

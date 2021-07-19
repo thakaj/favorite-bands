@@ -6,21 +6,12 @@ function Form({addNewBand}){
     const [newBand, setNewBand] = useState({name: "", image: "", bio: ""})
     const history = useHistory()
 
-    // function handleChange(e){
-    //     let newKey = e.target.value
-    //     let newInput = e.target.value
-    //     setNewBand({...newBand, [newKey]: newInput})
-    // }
-    function handleChangeName(event){
-        setNewBand({...newBand, name: event.target.value })
+    function handleChange(e){
+        let newKey = e.target.name
+        let newInput = e.target.value
+        setNewBand({...newBand, [newKey]: newInput})
     }
-    function handleChangeImage(event){
-        setNewBand({...newBand, image: event.target.value })
-    }
-    function handleChangeBio(event){
-        setNewBand({...newBand, bio: event.target.value })
-    }
-  
+ 
     function handleSubmit(event){
         event.preventDefault()
 
@@ -33,7 +24,6 @@ function Form({addNewBand}){
             body: JSON.stringify({
                 name: newBand.name, image: newBand.image, bio: newBand.bio
             })
-
         }
         fetch("http://localhost:8000/bands", configureObject)
         .then(r => r.json())
@@ -50,19 +40,19 @@ function Form({addNewBand}){
         <form onSubmit={handleSubmit}>
                 <label>Band Name:</label>
                 <input type="text" name="name"
-                onChange={handleChangeName} 
+                onChange={handleChange} 
                 value={newBand.name} 
                 placeholder="enter name..."
                 style={{margin: "10px"}}/>
                 <label>Image Url:</label>
                 <input type="text" name="image"
-                onChange={handleChangeImage} 
+                onChange={handleChange} 
                 value={newBand.image}
                 placeholder="enter image url..."
                 style={{margin: "10px"}}/> 
-                <label>Your favorite Song</label>
+                <label>Your favorite Song:</label>
                 <input type="text" name="bio"
-                onChange={handleChangeBio} 
+                onChange={handleChange} 
                 value={newBand.bio}
                 style={{margin: "10px"}}
                 placeholder="enter favorite song..."/>

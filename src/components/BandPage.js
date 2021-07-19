@@ -5,6 +5,9 @@ import BandCard from "./BandCard"
 //i will have to write about state as well. Write about the functionality i wanted to add.
 //create a <button>
 
+//first thing would be to create a button
+//probably filter through my information
+//input
 
 function BandPage({bands}){
     const [data, setData] = useState("")
@@ -41,9 +44,3 @@ return (
 }
 
 export default BandPage
-
-// after i finish the project i can come back to this to add more functionality
-// const [isClicked, setIsClicked] = useState(false)
-// function handleClick(){
-//     setIsClicked(isClicked =!isClicked)
-// }

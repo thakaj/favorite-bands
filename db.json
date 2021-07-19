@@ -4,63 +4,61 @@
       "id": 1,
       "name": "Jerry Garcia",
       "image": "http://www.covermesongs.com/wp-content/uploads/2020/08/jerry.jpg",
-      "bio": "character bio"
+      "bio": "Brown Eyed Woman"
     },
     {
       "id": 2,
       "name": "Bob Weir",
       "image": "https://townsquare.media/site/295/files/2015/05/Young-Bob-Weir.png?w=980&q=75",
-      "bio": "character bio"
+      "bio": "Weather Report Suite"
     },
     {
       "id": 3,
       "name": "Phil Lesh",
       "image": "https://i.pinimg.com/originals/50/a5/11/50a5113f907456b7396951d7b6825ce7.jpg",
-      "bio": "character bio"
+      "bio": "Box of Rain"
     },
     {
       "id": 4,
       "name": "Mickey Hart",
       "image": "https://www.dead.net/sites/g/files/g2000007851/files/2018-10/mickey.jpg",
-      "bio": "character bio"
+      "bio": "Fire on the Mountain"
     },
     {
       "id": 5,
       "name": "Bill Kreutzmann",
       "image": "https://www.rhino.com/sites/rhino.com/files/styles/article_image/public/2018-05/Bill_Kreutzmann-GettyImages-882240544.jpg?itok=LJ1-AryV",
-      "bio": "character bio"
+      "bio": "The Wheel"
     },
     {
       "id": 6,
       "name": "Ron 'Pigpen' McKernan",
       "image": "https://images.findagrave.com/photos250/photos/2002/171/1724_1024716628.jpg",
-      "bio": "character bio"
+      "bio": "Easy Wind"
     },
     {
       "id": 7,
       "name": "Robert Hunter",
       "image": "https://static01.nyt.com/images/2019/10/16/opinion/16Boylan/16Boylan-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
-      "bio": "character bio"
+      "bio": "Dark Star"
     },
     {
       "id": 8,
       "name": "Keith Godchaux",
       "image": "https://www.dead.net/sites/g/files/g2000007851/files/2018-10/keith.jpg",
-      "bio": "character bio"
+      "bio": "Slipknot"
     },
     {
       "id": 9,
       "name": "Donna Jean Godchaux",
       "image": "https://pbs.twimg.com/media/En2TqeKUwAAas3H.jpg",
-      "bio": "character bio"
+      "bio": "You Aint Woman Enough"
     },
     {
       "id": 10,
       "name": "Brent Mydland",
       "image": "https://www.dead.net/sites/g/files/g2000007851/files/2018-10/brent.jpg",
-      "bio": "character bio"
+      "bio": "Blow Away"
     }
-
-    
   ]
 }
