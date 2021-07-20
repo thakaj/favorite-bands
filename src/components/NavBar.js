@@ -6,7 +6,7 @@ function NavBar(){
     return (
         <header>
         <nav>
-            <Link to="/homepage">Home Page</Link>
+            <Link to="/">Home Page</Link>
             <Link to="/bandpage">Band Page</Link>
             <Link to="/newbandpage">New Band</Link>
         </nav>

@@ -31,7 +31,7 @@ function addNewBand(newBand){
           <Route path="/newbandpage">
             <Form addNewBand={addNewBand}/>
           </Route>
-          <Route exact path="/homepage">
+          <Route exact path="/">
               <HomePage/>          
           </Route>
         </Switch>
