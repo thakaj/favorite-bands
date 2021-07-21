@@ -59,6 +59,12 @@
       "name": "Brent Mydland",
       "image": "https://www.dead.net/sites/g/files/g2000007851/files/2018-10/brent.jpg",
       "bio": "Blow Away"
+    },
+    {
+      "name": "Red Hot Chili Peppers",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA7VBMVEX////FEjAAAAD+/v4EBAT7///7+/vDEzD//v/z8/P29vbCABnEABju7u7FDy7+//zUb3rpwMb04+jGDTPGT13x2d3DBijIyMjc3Nz68vDX19fn5+e8ABy7u7ujo6OVlZXQ0NBlZWVvb2+3t7eNjY13d3epqalBQUGBgYEuLi4iIiJUVFRdXV1LS0saGhrkpKw4ODjhrrYlJSUTExM6OjpRUVFGRkblzc67ABrAMka8AADivrz34ujWh5PTmaLNYnHLSVrVfofEP1LCSVvl0dHmusDLACLVeYXALkfOf47brbjAHTnYq6/HAADabXvfxkMZAAAgAElEQVR4nNVdiXrbtrKmBRIiKZNO7ERUJUvUbsmWVcdrm56epNl67j3tff/HudgxAEGKdGTXmX6pbYoC8ROD2TAYeN7zEfK8ZLY6u2m1/PV01CMXEHrGxz89Ia+/aQE6yzz8IyOMClfwisDyxT9G09j78SByvuuNLm/sD5LbVoFuI5tREX7544qz1Zr2vmdejtZFgH7rDBen4otFyDqWLCey+7mnO09+u9PMqRH6rYXVxizH7OfLgokEq/XzKyhIIEJvVBxBTmOjJe+61Zon/HW9LJBelC18wXmSItDHqAQf4VOjmSG7uhg8d/eriKIYLC8cvZ8BhDm4fpHnixsNcQwHS0qjyfgFDWF/ftVy0gR08kZfzujf0aVCuAC3jfVtly/HGsgN1oQIdR/H+o6cT9uBQugDKIoV/Nbq5Qxiz0ZGJGTrNu9jeQNBMNefcksAeQt1pe9sakARIoRegmV3bSNszQyDhqkKSRtxzcvUpaW6baobmTJJzOH94xBXBYRDYnDqd48Q1h/m8lqiLimVOADs3hMIvcWk73jm81LWsifi1HjtyNNoiICVV0ezLOsPYmCkgVelhpqqmQsqnPA/yK4Rh3c+1QLT6AvxKXTXM33V/O",
+      "bio": "Cant Stop",
+      "id": 11
     }
   ]
 }

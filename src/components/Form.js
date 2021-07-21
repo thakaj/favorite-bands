@@ -16,7 +16,7 @@ function Form({addNewBand}){
 
     function handleSubmit(event){
         event.preventDefault()
-        if(newBand.length > 0){
+        if(newBand.name.length > 0){
 
             
             const configureObject = {
@@ -72,7 +72,7 @@ function Form({addNewBand}){
 
          <h1>Preview of your Post!</h1>
          <BandCard 
-            id="" 
+            id={newBand.name}
             name={newBand.name}
             image={newBand.image}
             bio={newBand.bio}
